@@ -1,0 +1,30 @@
+html, body{
+    background-color: #123456;
+    display: block;
+    height: 100%;
+}
+
+.quote-box{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    width: 500px;
+    margin: 12% auto auto auto;
+}
+
+.quote-text{
+
+}
+
+#new-quote{
+    float: right;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.footer {
+    margin-top: 10px;
+    text-align: center;
+}
