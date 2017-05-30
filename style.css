@@ -1,7 +1,9 @@
 html, body{
     background-color: #123456;
+    color: #123456;
     display: block;
     height: 100%;
+    font-weight:400;
 }
 
 .quote-box{
