@@ -53,12 +53,12 @@ function getQuote() {
             });
 
             var color = Math.floor(Math.random() * colors.length);
-            $("html").animate({
+            $("body").animate({
                 backgroundColor: colors[color],
                 color: colors[color]
             }, 1000);
 
-            $(".button").animate({
+            $(".btn-primary").animate({
                 backgroundColor: colors[color]
             }, 1000);
 
@@ -74,4 +74,4 @@ $(document).ready(function() {
             openUrl('https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + currentQuote + '" ' + currentAuthor));
         }
     });
-})
+});

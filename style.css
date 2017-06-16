@@ -1,4 +1,4 @@
-html, body{
+body{
     background-color: #123456;
     color: #123456;
     display: block;
@@ -29,4 +29,8 @@ html, body{
 .footer {
     margin-top: 10px;
     text-align: center;
+}
+
+.footer a{
+    color: #ffffff;
 }
